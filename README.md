@@ -6,7 +6,7 @@ A minimalistic family task planning application built with modern web technologi
 
 - **Backend**: Node.js + TypeScript, Express, Prisma ORM, PostgreSQL
 - **Frontend**: React + TypeScript, minimalistic UI design
-- **Database**: PostgreSQL with pgweb for database viewing
+- **Database**: PostgreSQL with Adminer for database management
 - **Testing**: Jest (unit tests), Playwright (E2E tests)
 - **Internationalization**: i18next (English & French)
 - **DevOps**: Docker, GitHub Actions, ACT for local CI testing
@@ -30,49 +30,40 @@ family-board/
 
 ## 🚀 Quick Start
 
-### 1. Clone and Setup
+### One-Command Setup
 
 ```bash
 git clone <repository-url>
 cd family-board
+./setup.sh
+```
 
+That's it! The setup script will:
+- ✅ Create `.env` file from template
+- ✅ Install all dependencies
+- ✅ Generate Prisma client
+- ✅ Build and start Docker services
+- ✅ Run database migrations
+- ✅ Verify everything is working
+
+### Manual Setup (Alternative)
+
+```bash
 # Copy environment variables
 cp .env.example .env
 
 # Install all dependencies
 npm run setup
-```
 
-### 2. Development with Docker (Recommended)
-
-```bash
-# Start all services (database, backend, frontend, pgweb)
+# Start all services
 npm run dev
-
-# Or manually with docker-compose
-docker-compose up --build
 ```
 
 **Services will be available at:**
 - Frontend: http://localhost:3000
 - Backend API: http://localhost:3001
-- Database Viewer (pgweb): http://localhost:8081
+- Database Manager (Adminer): http://localhost:8081
 - PostgreSQL: localhost:5432
-
-### 3. Local Development (Alternative)
-
-```bash
-# Start database only
-docker-compose up postgres pgweb -d
-
-# Run backend
-cd backend
-npm run dev
-
-# Run frontend (in another terminal)
-cd frontend
-npm start
-```
 
 ## 🗄️ Database Management
 
