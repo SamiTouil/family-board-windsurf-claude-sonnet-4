@@ -1,0 +1,42 @@
+<testsuites id="" name="" tests="15" failures="0" skipped="0" errors="0" time="4.057955">
+<testsuite name="app.spec.ts" timestamp="2025-06-02T13:04:51.830Z" hostname="chromium" tests="3" failures="0" skipped="0" time="0.788" errors="0">
+<testcase name="Family Board App › should display the app title" classname="app.spec.ts" time="0.276">
+</testcase>
+<testcase name="Family Board App › should have correct page title" classname="app.spec.ts" time="0.249">
+</testcase>
+<testcase name="Family Board App › should be responsive" classname="app.spec.ts" time="0.263">
+</testcase>
+</testsuite>
+<testsuite name="app.spec.ts" timestamp="2025-06-02T13:04:51.830Z" hostname="firefox" tests="3" failures="0" skipped="0" time="3.548" errors="0">
+<testcase name="Family Board App › should display the app title" classname="app.spec.ts" time="1.299">
+</testcase>
+<testcase name="Family Board App › should have correct page title" classname="app.spec.ts" time="1.199">
+</testcase>
+<testcase name="Family Board App › should be responsive" classname="app.spec.ts" time="1.05">
+</testcase>
+</testsuite>
+<testsuite name="app.spec.ts" timestamp="2025-06-02T13:04:51.830Z" hostname="webkit" tests="3" failures="0" skipped="0" time="1.145" errors="0">
+<testcase name="Family Board App › should display the app title" classname="app.spec.ts" time="0.47">
+</testcase>
+<testcase name="Family Board App › should have correct page title" classname="app.spec.ts" time="0.443">
+</testcase>
+<testcase name="Family Board App › should be responsive" classname="app.spec.ts" time="0.232">
+</testcase>
+</testsuite>
+<testsuite name="app.spec.ts" timestamp="2025-06-02T13:04:51.830Z" hostname="Mobile Chrome" tests="3" failures="0" skipped="0" time="0.84" errors="0">
+<testcase name="Family Board App › should display the app title" classname="app.spec.ts" time="0.305">
+</testcase>
+<testcase name="Family Board App › should have correct page title" classname="app.spec.ts" time="0.3">
+</testcase>
+<testcase name="Family Board App › should be responsive" classname="app.spec.ts" time="0.235">
+</testcase>
+</testsuite>
+<testsuite name="app.spec.ts" timestamp="2025-06-02T13:04:51.830Z" hostname="Mobile Safari" tests="3" failures="0" skipped="0" time="1.089" errors="0">
+<testcase name="Family Board App › should display the app title" classname="app.spec.ts" time="0.307">
+</testcase>
+<testcase name="Family Board App › should have correct page title" classname="app.spec.ts" time="0.381">
+</testcase>
+<testcase name="Family Board App › should be responsive" classname="app.spec.ts" time="0.401">
+</testcase>
+</testsuite>
+</testsuites>
